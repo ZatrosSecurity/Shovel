@@ -2,3 +2,5 @@ apache-airflow==2.2.5
 starlette==0.24.0
 markdown-it-py==2.1.0
 pgadmin4==6.13
+authlib>=1.6.4 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
